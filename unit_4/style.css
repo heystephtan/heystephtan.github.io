@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@700;800&family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
+
+body {
+	background-color: #ffffff;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400; 
+	font-size: 18px;
+	color: #4A4A4A;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700; 
+	font-size: 26px;
+	color: #4A4A4A;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #4A4A4A;
+}
+
