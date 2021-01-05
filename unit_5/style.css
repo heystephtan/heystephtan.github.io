@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@700;800&family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
+nav {
+	background-color: #597463;
+	height: 3em;
+}
+
+body {
+	background-color: #F0ECDF;
+    font-size: 16px; /*1em = 16px*/
+}
+
+header{
+	padding-top: 200px;
+	text-align: center;
+	color: #F0ECDF;
+}
+
+main{
+	width: 30em;
+	margin: auto;
+	color: #4A4A4A;
+}
+
+footer {
+	background-color: #597463;
+	color: #F0ECDF; 
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400; 
+	font-size: 1.25em;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700; 
+	font-size: 2em;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700; 
+	font-size: 2em;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.navlinks {
+	float: right;
+	font-family: 'Playfair Display', serif;
+	color: #F0ECDF;
+	font-weight: 700;
+	padding: 20px; 
+}
+
+#hero{
+	background: url(images/profile-banner-sage.png) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:500px;
+}
+
+.intros {
+	text-align: center;
+}
+
+.content {
+	text-align: left;
+}
+
+.services {
+
+}
+
+#dogportraits {
+	display: inline;
+}
+
+#contact {
+	margin: 50px auto;
+	padding: 40px;
+	display:;
+}
+
+.social {
+	width: 30em;
+	margin: auto;
+	padding: 40px;
+}
+
