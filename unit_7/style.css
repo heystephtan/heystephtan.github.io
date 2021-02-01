@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
+@media only screen and (max-width: 1900px)	{
+
+}
+
+body {
+	background-color: #F0ECDF;
+    font-size: 16px; /*1em = 16px*/
+}
+
+header{
+	text-align: center;
+	color: #F0ECDF;
+	padding-bottom: 2em;
+}
+nav {
+	background-color: #597463;
+	height: 4em;
+	display: block;
+}
+
+nav a:hover {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 700;
+}
+
+main{
+	width: 70%;
+	margin: auto;
+	color: #4A4A4A;
+}
+
+footer {
+	background-color: #597463;
+	color: #F0ECDF; 
+	height: 300px;
+}
+
+h1, h2 {
+	line-height: 1.25;
+	padding: 1.5em, 0;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400; 
+	font-size: 1.25em;
+	padding-bottom: .5em;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700; 
+	font-size: 1.5em;
+	padding-bottom: 1em
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700; 
+	font-size: 2em;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+a {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #4A4A4A;
+}
+
+.navlinks {
+	float: right;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #F0ECDF;
+	text-decoration: none;
+	padding: 1.5em 2em;
+}
+
+#navlogo {
+	float: left;
+	padding: .5em 0 .5em 1.5em;
+	max-width: 2em;
+	margin: auto;
+}
+
+#landing {
+	background: url(images/profile-banner-sage.png) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 20em;
+	padding-top: 12.5em;
+}
+
+#landing h2 {
+	font-size: 4em;
+}
+	
+
+.sectionhead {
+	text-align: center;
+	margin: auto;
+	padding-top: 5em;
+}
+
+.content {
+	text-align: left;
+	width: 100%;
+	margin:2em auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.services {
+	width: 25em;
+	flex-grow: 1;
+	padding: 2em;
+}
+
+.services img {
+	float: left;
+	margin-top: .5em;
+	margin-right: 1.5em;
+	width: 30%;
+}
+
+.services a {
+	line-height: 2.5em;
+	text-decoration: underline;
+}
+
+#dogportraits {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+#dogportraits img {
+	width: 30%;
+	margin: .5em;
+}
+
+#about img {
+	float: left;
+	margin: 0 1.5em 0 0;
+	width: 40%;
+}
+
+#about p {
+	margin: 0;
+	padding: 0;
+}
+
+.contact {
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;
+	margin: 5em 0 10em 0;
+}
+
+#contactleft {
+ 	padding-right: 2em;
+}
+
+#contactright {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: stretch;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.social {
+	width: 25em;
+	margin: auto;
+	padding: 3em, 0;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+#footerlogo {
+	display: block;
+	margin: auto;
+	padding: 2em;
+}
