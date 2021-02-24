@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Roboto+Slab:wght@300;400;500;600&display=swap');
 
-@media only screen and (max-width: 1900px)	{
-
-}
 
 body {
 	background-color: #F0ECDF;
-    font-size: 16px; /*1em = 16px*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px; /*1em = 16px*/
 }
 
 header{
@@ -18,12 +16,12 @@ nav {
 	background-color: #597463;
 	height: 4em;
 	display: block;
+	font-size: 1.5em;
 }
 
 nav a:hover {
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	font-weight: 700;
+	text-decoration: underline;
+	color: #BDBAAD;
 }
 
 main{
@@ -48,13 +46,15 @@ h1 {
 	font-weight: 400; 
 	font-size: 1.25em;
 	padding-bottom: .5em;
+	width: 100%;
 }
 
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 700; 
 	font-size: 1.5em;
-	padding-bottom: 1em
+	max-width: 700px;
+	margin: auto;
 }
 
 h3 {
@@ -104,7 +104,7 @@ a {
 #landing h2 {
 	font-size: 4em;
 }
-	
+
 
 .sectionhead {
 	text-align: center;
@@ -119,11 +119,10 @@ a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-
 }
 
 .services {
-	width: 25em;
+	width: 100%;
 	flex-grow: 1;
 	padding: 2em;
 }
@@ -132,12 +131,17 @@ a {
 	float: left;
 	margin-top: .5em;
 	margin-right: 1.5em;
-	width: 30%;
+	width: 25%;
+	max-width: 100px;
 }
 
 .services a {
 	line-height: 2.5em;
 	text-decoration: underline;
+}
+
+.services h2 {
+	margin-bottom: .5em;
 }
 
 #dogportraits {
@@ -147,14 +151,19 @@ a {
 }
 
 #dogportraits img {
-	width: 30%;
-	margin: .5em;
+	width: 32%;
+	margin: .25em;
 }
 
 #about img {
 	float: left;
 	margin: 0 1.5em 0 0;
 	width: 40%;
+	min-width: 
+}
+
+#about h2 {
+	margin-bottom: .5em;
 }
 
 #about p {
@@ -166,27 +175,25 @@ a {
 	float: left;
 	display: flex;
 	flex-wrap: wrap;
-	width: 45%;
+	width: 48%;
 	margin: 5em 0 10em 0;
 }
 
 #contactleft {
- 	padding-right: 2em;
+	padding-right: 2em;
 }
 
 #contactright {
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: stretch;
+	float: right;
 }
 
 .clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 .social {
@@ -202,4 +209,79 @@ a {
 	display: block;
 	margin: auto;
 	padding: 2em;
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 15px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 50%;
+	background-color: #597463;
+	color: white;
+	padding: 8px 18px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+@media only screen and (min-width: 1325px)	{
+	.services {
+		width: 25em;
+	}
+}
+
+@media only screen and (min-width: 855px) and (max-width: 1325px)	{
+	.services {
+		margin:auto;
+		max-width: 600px;
+	}
+
+}
+
+@media only screen and (max-width: 1143px)	{
+	body {
+		font-size: 15px;
+	}
+	.contact {
+		float: none;
+		margin: auto;
+		margin-top: 25px;
+		width: 100%;
+	}
+
+	#contactright {
+		float: none;
+		margin: 40px 0;
+
+	}
+
+	input[type=text], select {
+		padding: 8px 15px;
+	}
+
+}
+
+@media only screen and (max-width: 857px)	{
+	body {
+		font-size: 14px;
+	}
+	#dogportraits	{
+		width: 100%;
+		display: flex;
+		flex-flow: row wrap;
+	}
+	#dogportraits img {
+		width: 48%;
+		margin: auto;
+		margin-bottom: .5em;
+	}
+
 }
